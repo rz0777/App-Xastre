@@ -22,6 +22,7 @@
             </tr>
         </thead>
         <tbody>
+            <?php include "data_show.php"?>
             <tr>
                 <td>1</td>
                 <td>2</td>
