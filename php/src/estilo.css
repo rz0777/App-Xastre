@@ -1,22 +1,31 @@
 
         body{
-            font-family: sans-serif;
+            background-image: linear-gradient( to right, #C6B2F7,#A39ED6 ); 
+            color: black;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
             text-align: center;
             
             
         }
         table td,table th{
+
             border:1px solid #ccc;
             padding:5px;
         
            
         }
+        table th{
+            background-color: #31343b;
+            color:rgb(255, 255, 255);
+        }
         table {
+            background-color: #dee5eb;
             border-collapse: collapse;
             width: 50%;
             text-align: center;
-            margin:0 auto
-            
+            margin:0 auto;
+            border-radius:10px, 20px, 40px, 50px;
+         
             
         }
         table caption{

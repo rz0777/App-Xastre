@@ -14,45 +14,45 @@
             Produtos cadastrados
         </caption>
         <thead>
-            <tr>
+            <tr class="hover">
+                <th>Produto</th>
                 <th>Preço</th>
-                <th>Nome</th>
-                <th>Quantidade</th>
+                <th>Estoque</th>
 
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
+                <td>Lápis</td>
+                <td>4.99</td>
+                <td>132</td>
 
             </tr>
             <tr>
+                <td>Galo</td>
+                <td>9.99</td>
                 <td>4</td>
-                <td>5</td>
-                <td>6</td>
 
             </tr>
             <tr>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
+                <td>Picanha</td>
+                <td>2.000</td>
+                <td>1(fazuely)</td>
                 <tr>
-                    <td>10</td>
+                    <td>Pisca</td>
                     <td>11</td>
                     <td>12</td>
     
                 </tr>
                 <tr>
-                    <td>13</td>
-                    <td>14</td>
-                    <td>15</td>
+                    <td>Leite</td>
+                    <td>12.99</td>
+                    <td>60</td>
     
                 </tr>
                 <tr>
-                    <td>16</td>
-                    <td>17</td>
+                    <td>Jacket</td>
+                    <td>250.00</td>
                     <td>18</td>
 
             </tr>
