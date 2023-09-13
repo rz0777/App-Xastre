@@ -58,6 +58,6 @@
             </tr>
         </tbody>
     </table>
-    <a href="php\src\pagina2.php"><input type="button" value="Ir para o cadastro"></a>
+    <a href="pagina2.php"><input type="button" value="Ir para o cadastro"></a>
 </body>
 </html>
