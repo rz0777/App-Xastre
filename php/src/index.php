@@ -54,10 +54,11 @@
                     <td>16</td>
                     <td>17</td>
                     <td>18</td>
+                  
 
             </tr>
         </tbody>
     </table>
-    
+    <a href="pagina2.php"><input type="button" value="Ir para o cadastro"></a>
 </body>
 </html>
