@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php include 'includes/admin-header.php';?>
 <main class="container admin" id="content">
     <form action="category.php?id=<?= $id ?>" method="post" class="narrow"> 
