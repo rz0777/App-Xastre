@@ -5,59 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="C:\Users\Elite\OneDrive\Área de Trabalho\Nova pasta\App-Xastre\php\src\estilo.css">
 </head>
 
 <body>
         <table>
-        <caption>
-            Produtos cadastrados
-        </caption>
+        <caption class="titulo">Produtos cadastrados</caption>
         <thead>
-            <tr class="hover">
-                <th>Produto</th>
-                <th>Preço</th>
-                <th>Estoque</th>
+            <tr>
+                <th>PRODUTO</th>
+                <th>PREÇO</th>
+                <th>ESTOQUE</th>
 
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Lápis</td>
-                <td>4.99</td>
-                <td>132</td>
+                <td>2.99</td>
+                <td>74</td>
 
             </tr>
             <tr>
-                <td>Galo</td>
-                <td>9.99</td>
-                <td>4</td>
+                <td>Mouse</td>
+                <td>129.99</td>
+                <td>28</td>
 
             </tr>
             <tr>
-                <td>Picanha</td>
-                <td>2.000</td>
-                <td>1(fazuely)</td>
+                <td>Garrafa</td>
+                <td>74.99</td>
+                <td>19</td>
                 <tr>
-                    <td>Pisca</td>
-                    <td>11</td>
-                    <td>12</td>
+                    <td>Colíreo</td>
+                    <td>35.00</td>
+                    <td>13</td>
     
                 </tr>
                 <tr>
-                    <td>Leite</td>
-                    <td>12.99</td>
-                    <td>60</td>
+                    <td>Flauta</td>
+                    <td>23.00</td>
+                    <td>15</td>
     
                 </tr>
                 <tr>
-                    <td>Jacket</td>
-                    <td>250.00</td>
+                    <td>Meias</td>
+                    <td>30.00</td>
                     <td>18</td>
+                  
 
             </tr>
         </tbody>
     </table>
-    
+    <a class="btn" href="pagina2.php">Cadastrar Produto</a>
+        
+
 </body>
 </html>
