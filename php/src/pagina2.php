@@ -7,19 +7,13 @@
     <title>pagina2</title>
 </head>
 <body>
+<form method="POST">
+    <p>Nome: <input type="text" name="nome"></p>
+    <P>Preço: <input type="number" step=0.01 name="preco"></p>
+    <p>Quantidade: <input type="number" name="qnt"></p>
+    <input type="submit" name="registrar" value="registrar"/>
 <form>
-    <P>Nome: <input type="text" nome="nome"></P>
-    <P>Preço: <input type="text" nome="preço"></P>
-    <P>Quantidade: <input type="text" nome="quantidade"></P>
-    <p>Contatos:
-        <select name="preferences">
-            <option value="email">Email</option>
-            <option value="celular">Celular</option>
-        </select>
-    </p>
-    <form>
-
-    
+<?php include "data_insert.php" ?>  
 </body>
 </html>
 
