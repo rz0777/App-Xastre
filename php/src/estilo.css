@@ -35,9 +35,9 @@ table caption{
     padding: 10px 8px;
     width: 250px;
     color:white;
-    background: rgb(31, 31, 31);
-    border: 2px solid #555;
-    border-radius: 5px;
+    background: #e60084;
+    border: 2px solid #e60084;
+    border-radius: 20px;
     text-align: center;
     user-select: none;
     cursor:pointer;
@@ -47,11 +47,11 @@ table caption{
     
 }
 .btn:hover{
-    background: rgb(66, 66, 66);
+    background: #e60084;
     transition: 0.5s;
 }
 input{
-    border-bottom: 2px solid #323232;
+    border-bottom: 2px solid #e60084;
     padding: 10px;
     font-size: .9rem;
     margin-bottom: 40px;
