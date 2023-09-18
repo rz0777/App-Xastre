@@ -9,6 +9,7 @@
     <title>Pagina2</title>
 </head>
 <body>
+
     <div id="main-container">
         <h1>Cadastrar Produto</h1>
         <form id="register-form" method="POST">
