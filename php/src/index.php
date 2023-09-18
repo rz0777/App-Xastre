@@ -60,5 +60,10 @@
     <a class="btn" href="pagina2.php">Cadastrar Produto</a>
         
 
+        <caption>
+            Produtos cadastrados
+        </caption>
+        <?php include "data_show.php"?>
+    <a href="pagina2.php"><input type="button" value="Ir para o cadastro"></a>
 </body>
 </html>
