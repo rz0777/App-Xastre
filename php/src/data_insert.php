@@ -15,7 +15,7 @@
     $result = $connection->query($sql_reg);
 
     if($result == TRUE){
-        echo "Produto registrado com sucesso";
+        echo  "<p class='tabb'>Produto registrado com sucesso!</p>";
     }   else{
         echo "Error: " . $sql_reg . "<br>" . $connection->error;
     }

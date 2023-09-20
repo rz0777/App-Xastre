@@ -18,6 +18,58 @@ input:focus, label:focus{
 a{
     color: #e60084;
 }
+body .page1{
+
+    background: rgb(54,25,93);
+    background: linear-gradient(90deg, rgba(54,25,93,1) 0%, rgba(183,95,235,1) 50%,
+    rgba(27,137,163,1) 100%, rgba(13,206,245,1) 100%);
+    font-family:Helvetica, sans-serif;
+    text-align: center;
+    
+    
+}
+table {
+    background-color: #dee5eb;
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    margin:0 auto;
+    box-shadow: 7px 7px 14px #413f3f, -7px -7px 14px #857f7f;
+    
+}
+table td, table th{
+   
+    border: 1px solid black;
+    padding:5px;
+
+
+}
+table caption{
+    caption-side:top;
+    text-align:center;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 10px 8px;
+    width: 250px;
+    color:white;
+    background: #e60084;
+    border: 2px solid #e60084;
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+    cursor:pointer;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    
+}
+.btn:hover{
+    background: #e60084;
+    transition: 0.5s;
+}
 body{
     padding-top:5vh;
     background:linear-gradient(90deg, rgba(54,25,93,1) 0%, rgba(183,95,235,1) 50%,
@@ -80,3 +132,10 @@ input[type="submit"]{
     height: 40px;
     cursor: pointer;
 }
+.tabb {
+   text-align: center;
+   color:black;
+   margin: 5px;
+}
+
+
